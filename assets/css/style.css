@@ -3,13 +3,13 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/nunito/nunito-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/nunito/nunito-v9-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Nunito Regular'), local('Nunito-Regular'),
-       url('assets/fonts/nunito/nunito-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/nunito/nunito-v9-latin-regular.woff2') format('woff2'),
-       url('assets/fonts/nunito/nunito-v9-latin-regular.woff') format('woff'),
-       url('assets/fonts/nunito/nunito-v9-latin-regular.ttf') format('truetype'),
-       url('assets/fonts/nunito/nunito-v9-latin-regular.svg#Nunito') format('svg');
+       url('/assets/fonts/nunito/nunito-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/nunito/nunito-v9-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/nunito/nunito-v9-latin-regular.woff') format('woff'),
+       url('/assets/fonts/nunito/nunito-v9-latin-regular.ttf') format('truetype'),
+       url('/assets/fonts/nunito/nunito-v9-latin-regular.svg#Nunito') format('svg');
 }
 
 /* Actor-regular - latin */
@@ -17,13 +17,13 @@
   font-family: 'Actor';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/actor/actor-v7-latin-regular.eot');
+  src: url('/assets/fonts/actor/actor-v7-latin-regular.eot');
   src: local('Actor Regular'), local('Actor-Regular'),
-       url('assets/fonts/actor/actor-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/actor/actor-v7-latin-regular.woff2') format('woff2'),
-       url('assets/fonts/actor/actor-v7-latin-regular.woff') format('woff'),
-       url('assets/fonts/actor/actor-v7-latin-regular.ttf') format('truetype'),
-       url('assets/fonts/actor/actor-v7-latin-regular.svg#Actor') format('svg');
+       url('/assets/fonts/actor/actor-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/actor/actor-v7-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/actor/actor-v7-latin-regular.woff') format('woff'),
+       url('/assets/fonts/actor/actor-v7-latin-regular.ttf') format('truetype'),
+       url('/assets/fonts/actor/actor-v7-latin-regular.svg#Actor') format('svg');
 }
 
 body {
@@ -333,19 +333,19 @@ a.slide-shop:hover {
 }
 
 .pp-ico {
-  background-image: url("assets/img/icons/ico-puff.png");
+  background-image: url("/assets/img/icons/ico-puff.png");
 }
 
 .pr-ico {
-  background-image: url("assets/img/icons/ico-umbrella.png");
+  background-image: url("/assets/img/icons/ico-umbrella.png");
 }
 
 .pn-ico {
-  background-image: url("assets/img/icons/ico-nap.png");
+  background-image: url("/assets/img/icons/ico-nap.png");
 }
 
 .pc-ico {
-  background-image: url("assets/img/icons/ico-cart.png");
+  background-image: url("/assets/img/icons/ico-cart.png");
 }
 
 a.shop {
