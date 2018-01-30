@@ -333,11 +333,11 @@ a.slide-shop:hover {
 }
 
 .pp-ico {
-  background-image: url("/assets/img/icons/ico-puff.png");
+  background-image: url("../assets/img/icons/ico-puff.png");
 }
 
 .pr-ico {
-  background-image: url("/assets/img/icons/ico-umbrella.png");
+  background-image: url("assets/img/icons/ico-umbrella.png");
 }
 
 .pn-ico {
