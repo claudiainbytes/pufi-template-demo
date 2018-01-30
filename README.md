@@ -42,7 +42,7 @@ En caso de tener problemas de visualización con el repositorio, descargar por m
 
 ``
 git clone https://github.com/claudiainbytes/pufi-template-demo.git
-``
+`
 
 
 
