@@ -333,11 +333,11 @@ a.slide-shop:hover {
 }
 
 .pp-ico {
-  background-image: url("../assets/img/icons/ico-puff.png");
+  background-image: url("/assets/img/icons/ico-puff.png");
 }
 
 .pr-ico {
-  background-image: url("assets/img/icons/ico-umbrella.png");
+  background-image: url("/assets/img/icons/ico-umbrella.png");
 }
 
 .pn-ico {
@@ -519,11 +519,26 @@ a.shop:hover {
     padding: 6px;
 }
 
-.pf-email-addon {
+button.pf-email-addon {
     border: 0;
     padding: 6px;
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+button.pf-email-addon:hover {
+    background-color: #cccccc;
+}
+
+.pf-msg-email {
+  color: #848484;
+  font-size: 12px;
+  text-align: left;
+  padding: 6px 0;
+  margin: 0;
+  display: none;
 }
 
 .ig-list {

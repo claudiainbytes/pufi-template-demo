@@ -119,6 +119,15 @@
       margin-right: 0;
     }
 
+    button.pf-email-addon {
+        border: 0;
+        padding: 6px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #ffffff;
+    }
+
     .pf-f {
       padding: 1em;
     }

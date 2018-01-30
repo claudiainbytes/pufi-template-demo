@@ -38,5 +38,11 @@ La plantilla se desarrollo desde una laptop MacBook Air de 13 pulgadas.
 
 Clic aquí: [Pufi Template ](https://claudiainbytes.github.io/pufi-template-demo/index.html)
 
+En caso de tener problemas de visualización con el repositorio, descargar por medio de GIT:
+
+``
+git clone https://github.com/claudiainbytes/pufi-template-demo.git
+``
+
 
 
