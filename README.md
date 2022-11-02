@@ -1,5 +1,7 @@
-Pufi Template Demo
+Pufi Template Demo 2022
 ===========================================
+
+According to requirements to build the UI from a mock up, Pufi.psd, using Tailwind CSS 3.
 
 Evaluación técnica, desarrollador UI.
 

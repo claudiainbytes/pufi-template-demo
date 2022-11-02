@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Actor&family=Nunito:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link href="../public/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="relative w-full h-screen flex flex-col justify-between">
+    <div class="hidden min-1089:hidden w-full h-screen absolute z-40 bg-black text-white p-8">
+      <nav class="w-full h-full flex flex-col justify-between">
+        <div class="w-full flex">
+          <a class="w-1/4" href="">
+            <img src="./img/icons/header-logo.png" alt="Pufi">
+          </a>
+          <div class="w-9/12">
+            <a class="flex justify-end items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="fa-solid fa-xmark"></i></a>
+          </div>
+        </div>
+        <ul class="w-full flex flex-col justify-start text-white mt-4">
+          <li class="w-full">
+              <a class="py-2 mx-1 flex justify-start items-center group" href="#">
+                <div class="p-4 mr-4 bg-icoPuff bg-no-repeat bg-center group-hover:bg-icoPuffHover AnchorLinkTransition_1 lg:mb-2"></div>
+                <div class="text-lg text-left font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Puff</div>
+              </a>
+          </li>
+          <li class="w-full">
+            <a class="py-2 mx-1 flex justify-start items-center group" href="#">
+              <div class="p-4 mr-4 bg-icoUmbrella bg-no-repeat bg-center group-hover:bg-icoUmbrellaHover AnchorLinkTransition_1 lg:mb-2"></div>
+              <div class="text-lg text-left font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Rain</div>
+            </a>
+           </li>
+           <li class="w-full">
+            <a class="py-2 mx-1 flex justify-start items-center group" href="#">
+              <div class="p-4 mr-4 bg-icoCart bg-no-repeat bg-center group-hover:bg-icoCartHover AnchorLinkTransition_1 lg:mb-2"></div>
+              <div class="text-lg text-left font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Cart</div>
+            </a>
+        </li>
+        <li class="w-full">
+          <a class="py-2 mx-1 flex justify-start items-center group" href="#">
+            <div class="p-4 mr-4 bg-icoNap bg-no-repeat bg-center group-hover:bg-icoNapHover AnchorLinkTransition_1 lg:mb-2"></div>
+            <div class="text-lg text-left font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Nap</div>
+          </a>
+         </li>
+        </ul>
+        <ul class="w-full flex flex-col justify-start text-white mt-4">
+          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-user"></i><span>Mi cuenta</span></a></li>
+          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-cart-shopping"></i><span>Mi compra</span></a></li>
+          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest  hover:text-secondary tAnchorLinkTransition_1 " href="#"><i class="w-8 mr-4 fa-solid fa-moon"></i><span>Modo oscuro</span></a></li>
+          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-xmark"></i><span>Cerrar menú</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="w-full h-full">
+      <div id="carousel">
+        <div class="w-full h-screen bg-imgSlide1 bg-origin-border bg-no-repeat bg-cover bg-center-20-percent lg:bg-center saturate-200"></div>
+      </div>
+    </div>
+    <div class="w-full h-screen absolute z-20 p-8 flex flex-col justify-between items-center">
+      <nav class="w-full flex justify-between items-start">
+        <div class="w-1/4">
+          <a class="w-auto" href="">
+            <img src="./img/icons/header-logo.png" alt="Pufi">
+          </a>
+        </div>
+        <ul class="w-1/2 hidden md:flex justify-center items-center text-white">
+          <li><a class="px-3 mx-1 flex flex-col justify-center items-center border-r border-white/[.75] group" href="#">
+                <div class="p-4 bg-icoPuff bg-no-repeat bg-center group-hover:bg-icoPuffHover AnchorLinkTransition_1 lg:mb-2"></div>
+                <div class="hidden sm:text-xs min-1090:block lg:text-lg text-center font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Puff</div>
+              </a>
+          </li>
+          <li><a class="px-3 mx-1 flex flex-col justify-center items-center border-r border-white/[.75] group" href="#">
+                <div class="p-4 bg-icoUmbrella bg-no-repeat bg-center group-hover:bg-icoUmbrellaHover AnchorLinkTransition_1 lg:mb-2"></div>
+                <div class="hidden sm:text-xs min-1090:block lg:text-lg text-center font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Rain</div>
+             </a>
+          </li>
+          <li><a class="px-3 mx-1 flex flex-col justify-center items-center border-r border-white/[.75] group" href="#">
+                <div class="p-4 bg-icoCart bg-no-repeat bg-center group-hover:bg-icoCartHover AnchorLinkTransition_1 lg:mb-2"></div>
+                <div class="hidden sm:text-xs min-1090:block lg:text-lg text-center font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Cart</div>
+              </a>
+          </li>
+          <li><a class="px-3 mx-1 flex flex-col justify-center items-center border-0 border-white/[.75] group" href="#">
+                <div class="p-4 bg-icoNap bg-no-repeat bg-center group-hover:bg-icoNapHover AnchorLinkTransition_1 lg:mb-2"></div>
+                <div class="hidden sm:text-xs min-1090:block lg:text-lg text-center font-Nunito font-bold tracking-wider uppercase group-hover:text-secondary AnchorLinkTransition_1">Pufi Nap</div>
+              </a>
+          </li>
+        </ul>
+        <ul class="w-1/4 flex justify-end items-center text-white">
+          <li><a class="hidden min-1089:block px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] hover:text-secondary AnchorLinkTransition_1" href="#">Mi cuenta<i class="pl-3 fa-solid fa-chevron-down"></i></a></li>
+          <li><a class="hidden min-1089:block px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] hover:text-secondary AnchorLinkTransition_1" href="#">Mi compra</a></li>
+          <li><a class="px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] lg:border-r-0 AnchorLinkTransition_1 hover:text-secondary" href="#"><i class="fa-solid fa-moon"></i></a></li>
+          <li><a class="block min-1089:hidden px-3 text-xs font-Actor uppercase tracking-widest AnchorLinkTransition_1 hover:text-secondary" href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+      </nav>
+      <h1 class="text-5xl lg:text-6xl text-center font-Actor uppercase text-white drop-shadow tracking-tighter">Estar cómodo, <br> nunca fue tan fácil.</h1>
+      <button class="w-32 border-4 border-white text-white px-5 py-4 font-Actor text-sm uppercase tracking-widest hover:border-white/[.75] hover:bg-white/[.25] hover:text-white hover:underline AnchorLinkTransition_1">Shop</button>
+      <div class="flex justify-center items-center text-white">
+        <button class="border border-white rounded-full w-5 h-5 mx-1 flex flex-col justify-center items-center group hover:border-secondary AnchorLinkTransition_1"><div class="bg-white group-hover:bg-secondary rounded-full w-3 h-3"></div></button>
+        <button class="border-0 border-white rounded-full w-5 h-5 mx-1 flex flex-col justify-center items-center AnchorLinkTransition_1"><div class="bg-white rounded-full w-3 h-3"></div></button>
+        <button class="border-0 border-white rounded-full w-5 h-5 mx-1 flex flex-col justify-center items-center AnchorLinkTransition_1"><div class="bg-white rounded-full w-3 h-3"></div></button>
+      </div>
+    </div>
+  </header>  
+</body>
+</html>
