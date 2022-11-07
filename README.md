@@ -3,6 +3,8 @@ Pufi Template Demo 2022
 
 According to requirements to build the UI from a mock up, Pufi.psd, using Tailwind CSS 3.
 
+To see the results, go to public/index.html
+
 Evaluación técnica, desarrollador UI.
 
 ## Instrucciones:

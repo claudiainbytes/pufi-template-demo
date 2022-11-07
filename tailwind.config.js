@@ -15,7 +15,11 @@ module.exports = {
 				'icoNap': "url('../img/icons/ico-nap.png')",
 				'icoNapHover': "url('../img/icons/ico-nap-hover.png')",
 				'icoUmbrella': "url('../img/icons/ico-umbrella.png')",
-				'icoUmbrellaHover': "url('../img/icons/ico-umbrella-hover.png')"
+				'icoUmbrellaHover': "url('../img/icons/ico-umbrella-hover.png')",
+				'icoBrandLive': "url('../img/icons/brandlive.png')",
+				'footerLogo': "url('../img/icons/footer-logo.png')",
+				'footerLogoDark': "url('../img/icons/footer-logo-dark.png')",
+				'iconsGuarantee': "url('../img/icons/guarantee.png')"
 			},
 			backgroundColor: theme =>({
 				...theme('colors'),
@@ -37,10 +41,20 @@ module.exports = {
 			}),	
 			backgroundPosition: {
 				'center-20-percent': "20% top",
+				'center-footer-logo': "-8px -4px",
+				'center-brandlive-logo': "-12px center",
+				'center-guarantee': "-12px center"
 			},
 			fontFamily: {
 				Actor: ["Actor", "sans-serif"],
 				Nunito: ["Nunito", "sans-serif"],
+			},
+			fontSize: {
+				'footer': ['0.7rem', {
+				  lineHeight: '1rem',
+				  letterSpacing: '-0.01em',
+				  fontWeight: '500',
+				}]
 			},
 			variants: {
 				width: ["responsive", "hover", "focus"]

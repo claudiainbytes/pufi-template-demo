@@ -10,7 +10,7 @@
   <link href="../public/css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="relative w-full h-screen flex flex-col justify-between">
+  <header class="relative w-full h-screen flex flex-col justify-around">
     <div class="hidden min-1089:hidden w-full h-screen absolute z-40 bg-black text-white p-8">
       <nav class="w-full h-full flex flex-col justify-between">
         <div class="w-full flex">
@@ -105,5 +105,47 @@
       </div>
     </div>
   </header>  
+  <footer class="p-8 relative flex flex-col justify-start w-100 font-Nunito">
+    <div class="flex flex-col justify-start w-100 lg:flex-row uppercase text-footer font-bold lg:mb-5">
+      <div class="flex flex-col justify-start w-100 lg:w-1/5">
+        <a class="bg-footerLogo bg-no-repeat bg-center-footer-logo w-[76px] h-[30px] mb-3" href="#"></a>        
+      </div>
+      <div class="flex flex-row justify-start w-100 lg:w-2/5">
+        <ul class="flex flex-col w-1/2 justify-start border-r border-gray-200">
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Pufi Rain</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Pufi Puff</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Pufi Cart</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Pufi Nap</a></li>
+        </ul>
+        <ul class="flex flex-col w-1/2 justify-start lg:border-r border-gray-200 pl-8 lg:px-8">
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Contacto</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Ayuda</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Como comprar</a></li>
+          <li class="mb-2"><a class="hover:text-secondary" href="#">Términos y condiciones</a></li>
+        </ul>    
+      </div>
+      <div class="flex flex-col justify-start w-100 lg:w-1/5 lg:border-r border-gray-200 pl-0 lg:px-8 my-4 lg:my-0">
+        <p class="mb-4">Compra 100% segura</p>  
+        <div class="bg-iconsGuarantee h-12 w-full bg-no-repeat bg-center-guarantee"></div>
+      </div>
+      <div class="relative flex flex-col justify-start w-100 lg:w-1/5 px-0 lg:pl-8">
+        <div class="lg:absolute lg:-top-[5px] flex flex-row justify-start items-center">
+          <p class="mr-3">Siguenos en</p>
+          <a class="mr-3 text-lg hover:text-secondary" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="mr-3 text-lg hover:text-secondary" href="#"><i class="fa-brands fa-twitter"></i></a>  
+          <a class="mr-3 text-lg hover:text-secondary" href="#"><i class="fa-brands fa-instagram"></i></a>  
+        </div>
+      </div>
+    </div>
+    <div class="w-100 flex flex-col justify-start">
+      <div class="my-4">
+        <hr class="border-gray-200">
+      </div>
+      <div class="flex flex-col justify-start md:flex-row md:justify-between md:align-middle">
+        <p class="text-gray-400 text-xs">PUFI Copyright 2022 - Todos los derechos reservados</p>
+        <a class="my-3 md:my-0 bg-icoBrandLive bg-no-repeat bg-center-brandlive-logo md:bg-right w-[120px] h-[20px]" href="#"></a>   
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
