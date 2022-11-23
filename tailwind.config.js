@@ -19,7 +19,15 @@ module.exports = {
 				'icoBrandLive': "url('../img/icons/brandlive.png')",
 				'footerLogo': "url('../img/icons/footer-logo.png')",
 				'footerLogoDark': "url('../img/icons/footer-logo-dark.png')",
-				'iconsGuarantee': "url('../img/icons/guarantee.png')"
+				'iconsGuarantee': "url('../img/icons/guarantee.png')",
+				'imgProduct1': "url('../img/img-prod-1.jpg')",
+				'imgProduct2': "url('../img/img-prod-2.jpg')",
+				'imgProduct3': "url('../img/img-prod-3.jpg')",
+				'imgProduct4': "url('../img/img-prod-4.jpg')",
+				'imgItem1': "url('../img/img-item-1.png')",
+				'imgItem2': "url('../img/img-item-2.png')",
+				'imgItem3': "url('../img/img-item-3.png')",
+				'imgItem4': "url('../img/img-item-4.png')"
 			},
 			backgroundColor: theme =>({
 				...theme('colors'),

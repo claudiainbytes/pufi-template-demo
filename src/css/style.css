@@ -5,3 +5,19 @@
 .AnchorLinkTransition_1 {
     @apply transition duration-500 ease-in-out
 }
+
+.ImgProductBackground {
+    @apply bg-no-repeat bg-cover bg-center
+}
+
+.RomboWhiteTab {
+    @apply w-6 h-6 absolute bg-white rotate-45
+}
+
+.RomboWhiteTabLeft {
+    @apply top-[-12px] left-auto md:left-[-12px] md:top-auto
+}
+
+.RomboWhiteTabRight {
+    @apply top-[-12px] right-auto md:right-[-12px] md:top-auto
+}
