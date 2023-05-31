@@ -21,6 +21,7 @@ module.exports = {
 				'footerLogo': "url('../img/icons/footer-logo.png')",
 				'footerLogoDark': "url('../img/icons/footer-logo-dark.png')",
 				'iconsGuarantee': "url('../img/icons/guarantee.png')",
+				'iconsGuaranteeDark': "url('../img/icons/guaranteeDark.png')",
 				'imgProduct1': "url('../img/img-prod-1.jpg')",
 				'imgProduct2': "url('../img/img-prod-2.jpg')",
 				'imgProduct3': "url('../img/img-prod-3.jpg')",
@@ -51,7 +52,7 @@ module.exports = {
 			backgroundPosition: {
 				'center-20-percent': "20% top",
 				'center-footer-logo': "-8px -4px",
-				'center-brandlive-logo': "-12px center",
+				'center-brandlive-logo': "-3px center",
 				'center-guarantee': "-12px center"
 			},
 			fontFamily: {
@@ -72,6 +73,9 @@ module.exports = {
 				'min-1024': '1024px',
 				'min-1089': '1089px',
 				'min-1090': '1090px'
+			},
+			dropShadow: {
+				'image': '0 3px 3px rgba(255, 255, 255, 0.15)',  
 			}
 		  }
 		},

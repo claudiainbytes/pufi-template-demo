@@ -11,7 +11,7 @@
 }
 
 .RomboWhiteTab {
-    @apply w-6 h-6 absolute bg-white rotate-45
+    @apply w-6 h-6 absolute bg-white rotate-45 dark:bg-slate-800
 }
 
 .RomboWhiteTabLeft {
@@ -21,3 +21,4 @@
 .RomboWhiteTabRight {
     @apply top-[-12px] right-auto md:right-[-12px] md:top-auto
 }
+
