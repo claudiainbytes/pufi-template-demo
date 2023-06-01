@@ -23,17 +23,53 @@
 }
 
 .slick-dots {
-    bottom: 25px !important;
+    bottom: 25px;
+    z-index: 21;
 }
+.slick-dots li {
+    width: 25px;
+    height: 25px;
+}  
 
-.slick-dots li.slick-active button:before {
-    opacity: .75 !important;
+.slick-dots li button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    padding: 0;
     border: 1px solid #ffffff;
     border-radius: 100%;
 }
 
 .slick-dots li button:before {
-    font-size: 12px !important;
-    line-height: 20px !important;
-    color: #ffffff !important;
+    position: relative;
+    top: unset;
+    left: unset;
+    width: 13px;
+    height: 13px;
+    font-size: unset;
+    line-height: unset;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    content: '';
+ }
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
 }
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
