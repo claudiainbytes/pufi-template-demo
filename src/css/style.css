@@ -22,3 +22,18 @@
     @apply top-[-12px] right-auto md:right-[-12px] md:top-auto
 }
 
+.slick-dots {
+    bottom: 25px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+}
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #ffffff !important;
+}

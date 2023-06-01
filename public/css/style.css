@@ -893,6 +893,14 @@ video {
   background-image: url('../img/img-slide-1.jpg');
 }
 
+.bg-imgSlide2 {
+  background-image: url('../img/img-slide-2.jpg');
+}
+
+.bg-imgSlide3 {
+  background-image: url('../img/img-slide-3.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1185,6 +1193,22 @@ video {
   }
 }
 
+.slick-dots {
+  bottom: 25px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75 !important;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
+}
+
 .placeholder\:font-Nunito::-moz-placeholder {
   font-family: Nunito, sans-serif;
 }
@@ -1473,4 +1497,3 @@ video {
     width: 200px;
   }
 }
-
