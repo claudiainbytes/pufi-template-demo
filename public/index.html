@@ -16,14 +16,14 @@
 </head>
 <body>
   <header class="relative w-full h-screen flex hidden- flex-col justify-around">
-    <div class="hidden min-1089:hidden w-full h-screen absolute z-40 bg-black text-white p-8">
+    <div class="hidden min-1089:hidden w-full h-screen absolute z-40 bg-primary text-white p-8" id="main-menu-responsive">
       <nav class="w-full h-full flex flex-col justify-between">
         <div class="w-full flex">
           <a class="w-1/4" href="">
             <img src="./img/icons/header-logo.png" alt="Pufi">
           </a>
-          <div class="w-9/12">
-            <a class="flex justify-end items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="fa-solid fa-xmark"></i></a>
+          <div class="w-9/12 flex justify-end items-center">
+            <a class="flex justify-end items-center px-3 text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1 button-close-menu" href="#"><i class="fa-solid fa-xmark"></i></a>
           </div>
         </div>
         <ul class="w-full flex flex-col justify-start text-white mt-4">
@@ -55,8 +55,7 @@
         <ul class="w-full flex flex-col justify-start text-white mt-4">
           <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-user"></i><span>Mi cuenta</span></a></li>
           <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-cart-shopping"></i><span>Mi compra</span></a></li>
-          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest  hover:text-secondary tAnchorLinkTransition_1 btn-theme-toggle-" href="#"><i class="w-8 mr-4 fa-solid fa-sun"></i><span>Modo oscuro</span></a></li>
-          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1" href="#"><i class="w-8 mr-4 fa-solid fa-xmark"></i><span>Cerrar menú</span></a></li>
+          <li class="w-full"><a class="py-2 mx-1 flex justify-start items-center text-md font-Actor uppercase tracking-widest hover:text-secondary AnchorLinkTransition_1 button-close-menu" href="#"><i class="w-8 mr-4 fa-solid fa-xmark"></i><span>Cerrar menú</span></a></li>
         </ul>
       </nav>
     </div>
@@ -100,7 +99,7 @@
           <li><a class="hidden min-1089:block px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] hover:text-secondary AnchorLinkTransition_1" href="#">Mi cuenta<i class="pl-3 fa-solid fa-chevron-down"></i></a></li>
           <li><a class="hidden min-1089:block px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] hover:text-secondary AnchorLinkTransition_1" href="#">Mi compra</a></li>
           <li><a class="px-3 text-xs font-Actor uppercase tracking-widest border-r border-white/[.75] lg:border-r-0 AnchorLinkTransition_1 hover:text-secondary btn-theme-toggle" href="#"><i class="fa-solid fa-sun"></i></a></li>
-          <li><a class="block min-1089:hidden px-3 text-xs font-Actor uppercase tracking-widest AnchorLinkTransition_1 hover:text-secondary" href="#"><i class="fa-solid fa-bars"></i></a></li>
+          <li><a class="block min-1089:hidden pt-1 px-3 text-xs font-Actor uppercase tracking-widest AnchorLinkTransition_1 hover:text-secondary button-open-menu" href="#"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
       </nav>
       <h1 class="text-5xl lg:text-6xl text-center font-Actor uppercase text-white drop-shadow tracking-tighter">Estar cómodo, <br> nunca fue tan fácil.</h1>
@@ -251,7 +250,7 @@
       </div>
     </div>
   </footer>
-  <script src="../assets/js/jquery.slim.min.js"></script>
+  <script src="../assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="../assets/js/slick/slick/slick.min.js"></script>
   <script src="../public/js/app.js"></script>
 </body>

@@ -5,7 +5,7 @@ var checkTheme = function() {
         document.documentElement.classList.remove('dark')
     }
 }
-  
+
 // Whenever the user explicitly chooses light mode
 localStorage.theme = 'light';
 checkTheme();
@@ -28,15 +28,27 @@ var fxToggleTheme = function() {
 
 btnToggleTheme.addEventListener('click', fxToggleTheme);
 
-// Slick Carousel Fade
+// Menu Responsive Fade In Fade Out
+$(document).ready(function(){
+    $(".button-open-menu").on('click', function(e){
+        e.preventDefault();
+        $("#main-menu-responsive").fadeIn();
+    });
+    $(".button-close-menu").on('click', function(e){
+        e.preventDefault();
+        $("#main-menu-responsive").fadeOut();
+    });
+});
 
+
+// Slick Carousel Fade
 $('#carousel').slick({
     dots: true,
     infinite: true,
     speed: 500,
     fade: true,
     cssEase: 'linear',
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     arrows: false,
   });
