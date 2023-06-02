@@ -48,7 +48,7 @@ $('#carousel').slick({
     speed: 500,
     fade: true,
     cssEase: 'linear',
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     arrows: false,
   });
