@@ -28,8 +28,13 @@ var fxToggleTheme = function() {
 
 btnToggleTheme.addEventListener('click', fxToggleTheme);
 
+// Page Loader
+$(window).on('load', function(){
+    $('#page-loader').fadeOut(500);
+});
+
 // Menu Responsive Fade In Fade Out
-$(document).ready(function(){
+$(function(){
     $(".button-open-menu").on('click', function(e){
         e.preventDefault();
         $("#main-menu-responsive").fadeIn();
